@@ -1,0 +1,13 @@
+[0.010s] Invoking command in '/ros_workspace/my_beginner_tutorials/build/my_beginner_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros_workspace/my_beginner_tutorials/build/my_beginner_tutorials -- -j8 -l8
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target publisher_node[0m
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target subscriber_node[0m
+[0.078s] [ 75%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o[0m
+[0.078s] [ 75%] Built target subscriber_node
+[2.702s] [01m[K/ros_workspace/my_beginner_tutorials/src/publisher_node.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[2.702s] [01m[K/ros_workspace/my_beginner_tutorials/src/publisher_node.cpp:19:9:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[2.702s]    19 |         [01;31m[K500ms[m[K, std::bind(&MinimalPublisher::timer_callback, this));
+[2.702s]       |         [01;31m[K^~~~~[m[K
+[3.571s] gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o] Error 1
+[3.571s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher_node.dir/all] Error 2
+[3.572s] gmake: *** [Makefile:146: all] Error 2
+[3.574s] Invoked command in '/ros_workspace/my_beginner_tutorials/build/my_beginner_tutorials' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros_workspace/my_beginner_tutorials/build/my_beginner_tutorials -- -j8 -l8
