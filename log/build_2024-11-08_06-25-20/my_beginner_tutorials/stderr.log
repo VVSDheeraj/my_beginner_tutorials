@@ -1,0 +1,12 @@
+[01m[K/ros_workspace/my_beginner_tutorials/src/publisher_node.cpp:14:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ does not name a type; did you mean ‘[01m[Ktimer_t[m[K’?
+   14 | [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      | [01;31m[K^~~~~~[m[K
+      | [32m[Ktimer_t[m[K
+[01m[K/ros_workspace/my_beginner_tutorials/src/publisher_node.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/ros_workspace/my_beginner_tutorials/src/publisher_node.cpp:23:9:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   23 |         [01;31m[K500ms[m[K, std::bind(&MinimalPublisher::timer_callback, this));
+      |         [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2
