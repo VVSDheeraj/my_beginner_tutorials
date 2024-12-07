@@ -1,2 +1,0 @@
-Invoking command in '/home/dheeraj/ros2_ws/src/my_beginner_tutorials/build/my_beginner_tutorials': /usr/bin/cmake /home/dheeraj/ros2_ws/src/my_beginner_tutorials -DCMAKE_INSTALL_PREFIX=/home/dheeraj/ros2_ws/src/my_beginner_tutorials/install/my_beginner_tutorials
-Invoked command in '/home/dheeraj/ros2_ws/src/my_beginner_tutorials/build/my_beginner_tutorials' returned '1': /usr/bin/cmake /home/dheeraj/ros2_ws/src/my_beginner_tutorials -DCMAKE_INSTALL_PREFIX=/home/dheeraj/ros2_ws/src/my_beginner_tutorials/install/my_beginner_tutorials
