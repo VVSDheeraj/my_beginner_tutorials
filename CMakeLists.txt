@@ -5,13 +5,25 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 # find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(tf2 REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(geometry_msgs REQUIRED)
+# find_package(catch_ros2 REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "srv/ChangeString.srv"
+  DEPENDENCIES std_msgs
+)
+ament_export_dependencies(rosidl_default_runtime)
+
 
 add_executable(publisher_node src/publisher_node.cpp)
 ament_target_dependencies(publisher_node rclcpp std_msgs)
@@ -19,6 +31,8 @@ ament_target_dependencies(publisher_node rclcpp std_msgs)
 add_executable(subscriber_node src/subscriber_node.cpp)
 ament_target_dependencies(subscriber_node rclcpp std_msgs)
 
+rosidl_get_typesupport_target(type_target ${PROJECT_NAME} "rosidl_typesupport_cpp")
+target_link_libraries(publisher_node ${type_target})
 install(TARGETS
   publisher_node
   subscriber_node

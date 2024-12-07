@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-dc469e7927c4bb80113d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "my_beginner_tutorials__py",
+					"jsonFile" : "directory-my_beginner_tutorials__py-91e49b57fa651b91b1f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/my_beginner_tutorials/my_beginner_tutorials__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "my_beginner_tutorials",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_my_beginner_tutorials_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_my_beginner_tutorials_egg-80792e57da7e5c853664.json",
+					"name" : "ament_cmake_python_build_my_beginner_tutorials_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_my_beginner_tutorials::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_my_beginner_tutorials-cf2f4dc579b932978642.json",
+					"name" : "ament_cmake_python_copy_my_beginner_tutorials",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_beginner_tutorials::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_beginner_tutorials-f2816c9c50b3f2c97483.json",
+					"name" : "my_beginner_tutorials",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_beginner_tutorials__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_beginner_tutorials__cpp-dc0a48450d15f9526335.json",
+					"name" : "my_beginner_tutorials__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "my_beginner_tutorials__py::@2ec3cf6e71bca4a1dd37",
+					"jsonFile" : "target-my_beginner_tutorials__py-b1823bcccf74d2a9f5d1.json",
+					"name" : "my_beginner_tutorials__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_beginner_tutorials__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_beginner_tutorials__rosidl_generator_c-cea1a30f29facab6ec17.json",
+					"name" : "my_beginner_tutorials__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_beginner_tutorials__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_beginner_tutorials__rosidl_generator_py-0350359e3d08ff746638.json",
+					"name" : "my_beginner_tutorials__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_beginner_tutorials__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_beginner_tutorials__rosidl_typesupport_c-43fe250ad039b11941f5.json",
+					"name" : "my_beginner_tutorials__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_beginner_tutorials__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_beginner_tutorials__rosidl_typesupport_c__pyext-6e295ca7fc8fde23bce2.json",
+					"name" : "my_beginner_tutorials__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_beginner_tutorials__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_beginner_tutorials__rosidl_typesupport_cpp-bd17da3365ecbf74060c.json",
+					"name" : "my_beginner_tutorials__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_beginner_tutorials__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_beginner_tutorials__rosidl_typesupport_fastrtps_c-8a4f7ded59a92ce26182.json",
+					"name" : "my_beginner_tutorials__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext-3764d213bcc5bb975741.json",
+					"name" : "my_beginner_tutorials__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_beginner_tutorials__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_beginner_tutorials__rosidl_typesupport_fastrtps_cpp-9a9ee4e1fef683763eee.json",
+					"name" : "my_beginner_tutorials__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_beginner_tutorials__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_beginner_tutorials__rosidl_typesupport_introspection_c-ad86cbcd87d94467f62a.json",
+					"name" : "my_beginner_tutorials__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_beginner_tutorials__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_beginner_tutorials__rosidl_typesupport_introspection_c__pyext-cbf5dc3308cafa0939f3.json",
+					"name" : "my_beginner_tutorials__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_beginner_tutorials__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_beginner_tutorials__rosidl_typesupport_introspection_cpp-cac706527a82f772c557.json",
+					"name" : "my_beginner_tutorials__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_beginner_tutorials_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_beginner_tutorials_uninstall-a1dd8b9fff559e4708ec.json",
+					"name" : "my_beginner_tutorials_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher_node-6951162c41d885a822ab.json",
+					"name" : "publisher_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscriber_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscriber_node-ea810acb1b62a1e1acb2.json",
+					"name" : "subscriber_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1527832d3e331d276b0e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dheeraj/ros2_ws/src/my_beginner_tutorials/build/my_beginner_tutorials",
+		"source" : "/home/dheeraj/ros2_ws/src/my_beginner_tutorials"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

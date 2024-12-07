@@ -1,0 +1,7 @@
+[01m[K/home/dheeraj/ros2_ws/src/my_beginner_tutorials/src/publisher_node.cpp:16:10:[m[K [01;31m[Kfatal error: [m[Kmy_beginner_tutorials/srv/ChangeString.hpp: No such file or directory
+   16 | #include [01;31m[K"my_beginner_tutorials/srv/ChangeString.hpp"[m[K  // Include custom service header
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:79: CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:598: CMakeFiles/publisher_node.dir/all] Error 2
+gmake: *** [Makefile:149: all] Error 2

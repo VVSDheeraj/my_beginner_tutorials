@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_beginner_tutorials__py",
+		"source" : "build/my_beginner_tutorials/my_beginner_tutorials__py"
+	}
+}
