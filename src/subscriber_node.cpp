@@ -1,30 +1,5 @@
 /**
  * @file subscriber_node.cpp
-<<<<<<< HEAD
- * @brief This file contains the implementation of the MinimalSubscriber class.
- * @author Sivaram Dheeraj Vishnubhotla
- * @version 1.0
- * @date 2024-11-06
- * @copyright Copyright (c) 2024
- */
-
-#include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
-
-class MinimalSubscriber : public rclcpp::Node {
- public:
-  MinimalSubscriber() : Node("minimal_subscriber") {
-    subscription_ = this->create_subscription<std_msgs::msg::String>(
-        "topic", 10,
-        std::bind(&MinimalSubscriber::topic_callback, this,
-                  std::placeholders::_1));
-  }
-
- private:
-  void topic_callback(const std_msgs::msg::String::SharedPtr msg) const {
-    RCLCPP_INFO(this->get_logger(),
-                "I heard: '%s'", msg->data.c_str());
-=======
  * @brief Implements the MinimalSubscriber class for subscribing to a topic and processing incoming messages.
  * 
  * This node demonstrates logging with various severity levels and handles 
@@ -94,17 +69,11 @@ class MinimalSubscriber : public rclcpp::Node {
       RCLCPP_FATAL(this->get_logger(),
           "Critical issue detected: 'fatal' message received.");
     }
->>>>>>> 8c9c43e (Correct changes)
   }
 
   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
 };
 
-<<<<<<< HEAD
-int main(int argc, char *argv[]) {
-  rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<MinimalSubscriber>());
-=======
 /**
  * @brief Main function to initialize and execute the MinimalSubscriber node.
  */
@@ -119,7 +88,6 @@ int main(int argc, char *argv[]) {
   RCLCPP_INFO(rclcpp::get_logger("rclcpp"),
       "Shutting down the MinimalSubscriber node.");
 
->>>>>>> 8c9c43e (Correct changes)
   rclcpp::shutdown();
   return 0;
 }

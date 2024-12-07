@@ -7,10 +7,7 @@
 ## Overview
 This repository contains a simple ROS 2 publisher node that publishes a custom string message. 
 
-<<<<<<< HEAD
-=======
 # Programming Assignment 1
->>>>>>> 8c9c43e (Correct changes)
 
 ## Directory Structure
 ```
@@ -28,8 +25,6 @@ my_beginner_tutorials/             # Root GitHub repository
 └── .git                           # Git directory (automatically created)
 ```
 
-<<<<<<< HEAD
-=======
 # Programming Assignment 2
 ## Directory Structure
 
@@ -53,7 +48,6 @@ my_beginner_tutorials/
 ├── README.md
 ```
 
->>>>>>> 8c9c43e (Correct changes)
 ## Build Instructions
 ```bash 
 colcon build --packages-select beginner_tutorials 
@@ -63,13 +57,6 @@ source /ros_workspace/install/setup.bash
 ros2 run beginner_tutorials publisher_node
 ```
 
-<<<<<<< HEAD
-## publisher.cpp
-
-A file that comprises a basic ROS2 C++ publisher node that demonstrates the use of a publisher for sending messages. A costum string is published suing the publisher node.
-
-## subscriber.cpp
-=======
 
 
 ## publisher_node.cpp
@@ -77,7 +64,6 @@ A file that comprises a basic ROS2 C++ publisher node that demonstrates the use 
 A file that comprises a basic ROS2 C++ publisher node that demonstrates the use of a publisher for sending messages. A costum string is published suing the publisher node.
 
 ## subscriber_node.cpp
->>>>>>> 8c9c43e (Correct changes)
 A file that comprises a basic ROS2 C++ subscriber node that demonstrates the use of a subscribing for receiving messages. A costum string which is published by the publisher node is subscribed using the subscriber node.
 
 ## ROS2 Dependencies:
@@ -88,11 +74,6 @@ A file that comprises a basic ROS2 C++ subscriber node that demonstrates the use
 
 Ensure you have the ROS2 Humble version (or the relevant ROS2 distribution) installed on your system, and don’t forget to source the ROS2 setup script.
 
-<<<<<<< HEAD
-## Terminal Output:
-
-![Terminal output of the publisher node publishing the custom message](results/image-1.png)
-=======
 ## How to Build and Run
 
 In the root directory of this repository, use the following commands to build the ROS2 package:
@@ -160,4 +141,3 @@ Below is an example of the terminal output after running the publisher and subsc
 - Terminal output with service call
 
    ![Terminal output of the publisher and subscriber](results/result2.png)
->>>>>>> 8c9c43e (Correct changes)
